@@ -1,0 +1,68 @@
+TOKEN: In python source code token is the smallest part or unit
+
+Types of Tokens
+KEYWORDS
+Identifiers
+Literals
+Seperators
+
+Keywords: these are reserved words they have a singular function which
+          cannot be changed -- total 35 words
+Identifiers : variables functions are class names
+### a variable is a named reference that points to a value or object stored in memory
+
+literals  : constant, values,(intezers , strings)
+
+Seprators: , " ' {}, [],()
+
+Operators: it performs a specific operations on operands
+(Python divides its operators into seven main categories, which are special symbols and keywords used to perform calculations, comparisons, and logical operations on values and variables.)
+
+Arthemetic opertors
+comparison opertors
+assignment operators
+logical operators ( and or)
+identity operators
+
+bitwise operators
+
+membership operators (in, notin)
+
+
+Rules for naming variables
+1 should start with an alphabet
+2 should be only alphanumeric
+3 no special charcgters are allowed like space,< ,> / /? etc.
+4 only special character allowed is _
+5 not start with number
+6 _ is allowed at the start
+7 should not contain pred defined keywords like print, scan, input, max , etc......
+
+8 for best practices use only lowercase names in variable assignment
+
+###
+
+a - variable
+3 number,2ndnumber - no (starts with a number
+num, mam,nI, = variable
+num 3, num 5, n 3, my number = no (space in b/w)
+_ram, _val1  =  varible
+for, if class = no (keyword)
+FOR, For, IF, CLASS = variable( python is class sensitive)
+
+num1 = 10, num2 = 20, num3 = 30
+num1, num2, num3 = 10,20,30
+
+id() : this function will return objects memory address
+print(id(num1)) - outputs memory location for value 10
+
+
+
+
+
+
+
+
+
+
+
