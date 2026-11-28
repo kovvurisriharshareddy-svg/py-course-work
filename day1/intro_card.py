@@ -9,3 +9,6 @@ print("batch: PFS-HYD-072")
 print("timming:9am -11 am")
 print("---------------------------------------------")
 print("Education: Msc Mechatronics systems")
+
+print = 10
+print(print)
