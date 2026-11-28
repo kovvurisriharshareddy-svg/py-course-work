@@ -1,0 +1,79 @@
+OPRTATORS
+Type of operators
+1. Arthematic Operators
+    - Addition == a+b
+    - substraction == a-b
+    - Multiplication == a*b
+    - Division  == a/b (division with remainder zero) 5/2 = 2.5
+    - Floor division == a//b (gives quotient) 5//2==2
+    - Modular division == a%b (gives remainder) 5%2 = 1
+    - Exponential  === a**b (2**4 = 16)
+2. Assignment Operators
+ 
+    - " = "  equal        -- a = 3
+    - "+="  addition assign -- a += b (a = a+b)
+    - " -=" substactin assign -- a -=b (a = a-b)
+    - "*="  multiplication    -- a*=b (a = a*b)
+    - "/="   division        -- a/=b (a =a/b)
+    - "//="  floor divison   --  a//=b ( a= a//b)
+    -"%="   modular division  -- a%=b ( a= a%b)
+    - " **=" exponential     --  a**=b (a = a**b)
+
+3. Relational Operators
+   - " == "      a == b( a is equal to b)
+   - " > "       a > b( a graeter than b)
+   - " < "       a < b( a less than b)
+   - " =>"       a => b( a greater than or equal to b)
+   - " =< "      a =< b( a less than or equal to b)
+   - " != "      a != b( a not equal to b)
+
+4. Logical Operators
+   
+    logical operators are use to combine two are more conditional statements And the result is a Boolean value
+
+  - " AND " all th conditional statement are True Result will be True
+            even if condition is false the resulting outcome is False
+
+  - " OR "  atleast one condition must be true for the result to true
+            1. true  2. true   out = True
+            1. False 2.True    out = True
+            1. True  2.False   out = True
+            1. False 2.false   Out = False
+  
+  - " NOT " the reverse of the condition is True
+
+5. BITWISE Operators
+
+" & -AND ", " | -OR ", " ^ -XOR", ">> -Right Shift", "<< -Left shift
+
+XOR TABLE              And table          OR table
+        b1  b2  XOR    b1  b2    AND     b1  b2   OR
+        0   0    0      0   0   0         0   0   0
+        1   0    1      0   1   0         1   0    1
+        0   1   1       0   1   0         0   1    1
+        1   1    0      1   1   1         1   1    1
+
+   21   1  AND OR XOR
+  -1    0  0   1   1
+  -0    0  0   0   0
+  -1    0  0   1   1
+  -0    0  0   0   0
+  -1    1  1   1   0
+       num 1   21  20
+
+">>" right shift  //2  ex 10>>2 (10//2, 5//2) ,100>>3 
+          (100//2,50//2,25//2)  
+"<<" left shift" *2 ex 10<<2 (10*2, 20*2)
+
+
+
+
+
+
+
+
+
+
+
+
+
